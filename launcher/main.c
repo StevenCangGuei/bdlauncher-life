@@ -10,7 +10,7 @@
 #include "termwrap.h"
 #include <getopt.h>
 
-char const *bedrock_server = "./bedrock_server";
+char const *bedrock_server = "./bds";
 
 int main(int argc, char *argv[]) {
   if (argc >= 2) bedrock_server = (char const *) argv[1];
